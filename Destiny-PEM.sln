@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destiny-PEM", "Destiny-PEM\Destiny-PEM.csproj", "{958761F2-0FF2-410A-87A5-6F298D8E4D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destiny-PEM.UI", "Destiny-PEM.UI\Destiny-PEM.UI.csproj", "{0591F49E-9467-4CF0-AC59-E5FAD442CE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Destiny-PEM.Tests", "Destiny-PEM.Tests\Destiny-PEM.Tests.csproj", "{6E3EE215-39C7-4059-94B7-369A99AA0AE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{958761F2-0FF2-410A-87A5-6F298D8E4D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958761F2-0FF2-410A-87A5-6F298D8E4D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958761F2-0FF2-410A-87A5-6F298D8E4D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958761F2-0FF2-410A-87A5-6F298D8E4D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0591F49E-9467-4CF0-AC59-E5FAD442CE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0591F49E-9467-4CF0-AC59-E5FAD442CE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0591F49E-9467-4CF0-AC59-E5FAD442CE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0591F49E-9467-4CF0-AC59-E5FAD442CE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3EE215-39C7-4059-94B7-369A99AA0AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3EE215-39C7-4059-94B7-369A99AA0AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3EE215-39C7-4059-94B7-369A99AA0AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3EE215-39C7-4059-94B7-369A99AA0AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

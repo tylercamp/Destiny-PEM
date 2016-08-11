@@ -1,0 +1,62 @@
+﻿# Format: PLANET::LOCATION NAME
+
+# EARTH LOCATIONS
+Earth::Mothyards
+Earth::Forgotten Shore
+Earth::Steppes
+Earth::Lunar Complex
+Earth::Skywatch
+Earth::Terrestrial Complex
+Earth::Bunker RAS-2
+Earth::The Grottos
+Earth::Refinery
+Earth::The Blast
+Earth::Rocketyard
+Earth::The Divide
+Earth::The Breach
+Earth::Dock 13
+
+# MOON LOCATIONS
+Moon::Archers Line
+Moon::Hall of Wisdom
+Moon::Anchor of Light
+Moon::The World's Grave
+Moon::The Gatehouse
+Moon::Hellmouth
+Moon::Circle of Bones
+Moon::Temple of Crota
+
+# VENUS LOCATIONS
+Venus::Headlands
+Venus::Ember Caves
+Venus::Shattered Coast
+Venus::The Citadel
+Venus::Winter's Lair
+Venus::The Cinders
+Venus::The Juncture
+Venus::Waking Ruins
+Venus::Campus 9
+Venus::Endless Steps
+Venus::Ishtar Cliffs
+Venus::Ishtar Commons
+Venus::Ishtar Academy
+Venus::N/Gen Branch
+Venus::Hall of Whispers
+
+# MARS LOCATIONS
+Mars::The Barrens
+Mars::The Hollows
+Mars::Scablands
+Mars::Dust Palace
+Mars::Buried City
+Mars::Overwatch
+Mars::The Cortex
+Mars::Freehold Station
+Mars::The Drift
+Mars::Tharsis Junction
+Mars::Firebase Rubicon
+Mars::Giant's Pass
+Mars::Valley of the Kings
+Mars::Trenchworks
+Mars::Iron Line
+Mars::Rubicon Wastes

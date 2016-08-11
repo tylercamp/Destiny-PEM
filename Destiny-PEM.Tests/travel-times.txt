@@ -1,0 +1,108 @@
+﻿# The time it takes to traverse from one entrance in an area to the effective center of the area
+# (where an event is expected to approximately occur)
+
+# A big "Thank You" to /u/KingOfCarrotFlowers for his maps:
+# http://www.reddit.com/r/DestinyTheGame/comments/2gypad/maps_earth_moon_venus_will_update_with_mars_soon/
+
+# Format: Location Name <-> Location Boundary Name = minutes:seconds
+# (Tabs/Space interchangeable)
+# If there are duplicate names across planets, you can specify which
+#	planet you're talking about by using PlanetName::Location
+
+# If a traversal time is (or assigned to 0:00), DefaultTraversalTime will be used
+:DefaultTraversalTime = 1:00
+
+
+
+# Amount of time it takes to go back to orbit (after starting to hold Triangle/Y with your ghost already out)
+
+# Sample times: 12s, 11s, 11s, 11s, 11s, 11s, ...
+:BackToOrbitTime = 0:15
+
+
+
+# Amount of time it takes to select Patrol for a planet and load the environment (added 10s for "just in case" buffer)
+
+# Sample times: 56s, 46s, 46s, 47s
+:TravelToEarthTime = 1:05
+
+# Sample times: 45s, 43s, 43s, 47s
+:TravelToMoonTime = 0:55
+
+# Sample times: 40s, 43s, 42s, 39s
+:TravelToVenusTime = 0:55
+
+# Sample times: 46s, 44s, 49s, 45s
+:TravelToMarsTime = 1:00
+
+
+
+# EARTH LOCATIONS
+Earth::Spawn <-> Forgotten Shore	= 0:01
+Mothyards <-> Forgotten Shore		= 0:00
+Mothyards <-> Lunar Complex			= 0:00
+Lunar Complex <-> Skywatch			= 0:00
+Skywatch <-> Terrestrial Complex	= 0:00
+Terrestrial Complex <-> Forgotten Shore = 0:00
+Forgotten Shore <-> Bunker RAS-2	= 0:00
+Forgotten Shore <-> The Grottos		= 0:00
+The Grottos <-> Refinery			= 0:00
+Refinery <-> The Blast				= 0:00
+Refinery <-> Rocketyard			= 0:00
+Rocketyard <-> The Divide			= 0:00
+The Divide <-> The Breach			= 0:00
+The Divide <-> Dock 13				= 0:00
+Dock 13 <-> Steppes				= 0:00
+Steppes <-> Mothyards			= 0:00
+
+# MOON LOCATIONS
+Moon::Spawn <-> Archers Line		= 0:01
+Archers Line <-> Hellmouth			= 0:00
+Archers Line <-> Hall of Wisdom	= 0:00
+Archers Line <-> Anchor of Light	= 0:00
+Anchor of Light <-> Hellmouth		= 0:00
+Anchor of Light <-> Temple of Crota	= 0:00
+Temple of Crota <-> The World's Grave = 0:00
+Hellmouth <-> The Gatehouse			= 0:00
+The Gatehouse <-> Circle of Bones	= 0:00
+Circle of Bones <-> The World's Grave = 0:00
+Circle of Bones <-> Hall of Wisdom	= 0:00
+
+# VENUS LOCATIONS
+Venus::Spawn <-> Headlands			= 0:01
+Venus::Spawn <-> Ember Caves		= 0:00
+Headlands <-> Ember Caves			= 0:00
+Headlands <-> Shattered Coast		= 0:00
+Ember Caves <-> The Citadel			= 0:00
+Ember Caves <-> Winter's Lair		= 0:00
+Winter's Lair <-> The Cinders		= 0:00
+The Citadel <-> The Juncture		= 0:00
+The Citadel <-> Waking Ruins		= 0:00
+Waking Ruins <-> Campus 9			= 0:00
+Waking Ruins <-> Ishtar Cliffs		= 0:00
+Campus 9 <-> Endless Steps			= 0:00
+Shattered Coast <-> Ishtar Cliffs	= 0:00
+Shattered Coast <-> Ishtar Academy	= 0:00
+Ishtar Commons <-> Ishtar Academy	= 0:00
+Hall of Whispers <-> Ishtar Commons	= 0:00
+N/Gen Branch <-> Ishtar Commons		= 0:00
+
+# MARS LOCATIONS
+Mars::Spawn <-> The Barrens			= 0:01
+The Barrens <-> The Hollows			= 0:00
+The Barrens <-> Scablands			= 0:00
+The Hollows <-> Dust Palace			= 0:00
+The Hollows <-> Buried City		= 0:00
+Dust Palace <-> Overwatch			= 0:00
+Overwatch <-> The Cortex			= 0:00
+Buried City <-> Freehold Station= 0:00
+Buried City <-> The Drift		= 0:00
+Freehold Station <-> Tharsis Junction = 0:00
+The Drift <-> Scablands				= 0:00
+Scablands <-> Firebase Rubicon		= 0:00
+Scablands <-> Giant's Pass			= 0:00
+Giant's Pass <-> Valley of the Kings= 0:00
+Valley of the Kings <-> Trenchworks	= 0:00
+Trenchworks <-> Iron Line			= 0:00
+Iron Line <-> Rubicon Wastes		= 0:00
+Rubicon Wastes <-> Firebase Rubicon	= 0:00
