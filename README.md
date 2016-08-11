@@ -1,4 +1,4 @@
-Destiny Public Events Master (Destiny PEM)
+## Destiny Public Events Master (Destiny PEM)
 
 Software that polls destinypublicevents.com to find the best order to visit public events, maximizing events per hour.
 
